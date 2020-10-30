@@ -1,6 +1,6 @@
 # JavaWeb_Login_QiuQian
 - SQL Server数据库连接
-- HTML, Java, Servlet, SQL Server
+- HTML, Java, Servlet, SQL Server, Tomcat
 
 ## Database
 
