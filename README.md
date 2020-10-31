@@ -2,7 +2,7 @@
 
 
 
-:smile:  *未更新完成*
+:smile:  *未更新完成*，未打包，仅上传源码
 
 ## :new_moon_with_face:项目需求
 
@@ -29,7 +29,7 @@
 
 ## :page_facing_up:数据库中包含以下数据：
 
-username为PRIMARY KETY
+username为PRIMARY KEY
 
 | username | password |
 | -------- | -------- |
