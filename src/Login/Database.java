@@ -5,8 +5,10 @@ import Userdata.Userdata;
 import java.sql.*;
 
 public class Database {
+    //声明一个连接
     Connection connection = null;
 
+    //在构造方法总连接到数据库
     public Database(String name, String password) throws ClassNotFoundException, SQLException {
         Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
         this.connection = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;DatabaseName=web_test", name, password);
@@ -29,7 +31,7 @@ public class Database {
     }
 
     /**
-     *获取用户数据
+     *从数据库获取用户数据
      * @param username
      * @return
      * @throws SQLException

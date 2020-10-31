@@ -19,12 +19,16 @@ public class LoginServlet extends HttpServlet {
         response.setCharacterEncoding("utf-8");
         response.setHeader("content-type", "text/html;charset=utf-8");
 
+        //从前端获取username和password
         String username = request.getParameter("userName");
         String password = request.getParameter("userPwd");
 
+        //声明输出流
         PrintWriter printWriter = response.getWriter();
 
         try {
+            //连接数据库 -> 前端数据和数据库数据做比对 -> 关闭数据库连接
+            //成功or失败进行相应操作，输出流
             Database database = new Database("sa", "qwert");
             Userdata userdata = database.check(username, password);
             database.close();
