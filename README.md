@@ -1,36 +1,59 @@
 # JavaWeb_Login_QiuQian
 
-*未更新完成*
 
-## 环境
 
-- SQL Server数据库连接
-- HTML, Java, Servlet, SQL Server, Tomcat
-- JDK14, Tomcat9.0.37
+:smile:  *未更新完成*
 
-## Database
+## :new_moon_with_face:项目需求
 
-数据库中包含以下数据：
+- [x] 数据库
+- [x] 登录
+- [ ] 注册
+- [ ] 前端美化
 
-| useername | password |
-| --------- | -------- |
-| admin     | admin    |
-| qiuqian   | qiuqian  |
+## :wrench:使用的环境/工具
 
-- 在构造方法中完成SQL数据库连接
-- testConnection();//连接测试
-- getUser();//从数据库获取用户数据
-- check();//前端传入数据和数据库数据做比对
+- JDK14, JRE10, Tomcat9.0.37
+- HTML, Java, Servlet
+- SQL Server Management Studio, VS Code, IDEA
 
-## LoginServlet
+## 项目结构
 
-1. 从前端获取username及password
-2. 与数据库数据做比对
-   - 数据匹配：PrintWriter 欢迎你 + 用户名
-   - 数据不匹配： 用户名或密码错误/登陆失败
+| ALL  | ![image-20201031213110056](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031213110056.png) |
+| ---- | :----------------------------------------------------------: |
+| web  | ![image-20201031213451683](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031213451683.png) |
+| Java | ![image-20201031215121470](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031215121470.png) |
+| API  | ![image-20201031215153953](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031215153953.png) |
 
-## 使用许可
 
-[MIT](LICENSE) ©
 
-待更新
+## :page_facing_up:数据库中包含以下数据：
+
+username为PRIMARY KETY
+
+| username | password |
+| -------- | -------- |
+| admin    | admin    |
+| qiuqian  | qiuqian  |
+
+
+
+
+
+## :jack_o_lantern:实现的效果
+
+Login
+
+![image-20201031215405723](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031215405723.png)
+
+登陆成功
+
+![image-20201031215446017](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031215446017.png)
+
+登录失败
+
+![image-20201031215513532](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031215513532.png)
+
+## :squirrel:使用许可
+
+[MIT](LICENSE) © QiuQian
