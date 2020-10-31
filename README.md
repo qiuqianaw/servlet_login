@@ -17,13 +17,13 @@
 - HTML, Java, Servlet
 - SQL Server Management Studio, VS Code, IDEA
 
-## 项目结构
+## :two_men_holding_hands:项目结构
 
-| ALL  | ![image-20201031213110056](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031213110056.png) |
+| ALL  | ![all](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031213110056.png) |
 | ---- | :----------------------------------------------------------: |
-| web  | ![image-20201031213451683](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031213451683.png) |
-| Java | ![image-20201031215121470](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031215121470.png) |
-| API  | ![image-20201031215153953](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031215153953.png) |
+| web  | ![web](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031213451683.png) |
+| Java | ![java](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031215121470.png) |
+| API  | ![api](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031215153953.png) |
 
 
 
@@ -54,6 +54,6 @@ Login
 
 ![image-20201031215513532](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031215513532.png)
 
-## :squirrel:使用许可
+## :earth_asia:使用许可
 
 [MIT](LICENSE) © QiuQian
