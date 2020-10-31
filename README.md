@@ -31,6 +31,6 @@
 
 ## 使用许可
 
-[MIT](LICENSE) © Richard Littauer
+[MIT](LICENSE) ©
 
 待更新
