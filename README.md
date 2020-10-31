@@ -1,5 +1,7 @@
 # JavaWeb_Login_QiuQian
 
+*未更新完成*
+
 ## 环境
 
 - SQL Server数据库连接
@@ -26,5 +28,9 @@
 2. 与数据库数据做比对
    - 数据匹配：PrintWriter 欢迎你 + 用户名
    - 数据不匹配： 用户名或密码错误/登陆失败
+
+## 使用许可
+
+[MIT](LICENSE) © Richard Littauer
 
 待更新

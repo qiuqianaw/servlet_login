@@ -8,9 +8,10 @@ public class Database {
     //声明一个连接
     Connection connection = null;
 
-    //在构造方法总连接到数据库
+    //在构造方法时连接到数据库
     public Database(String name, String password) throws ClassNotFoundException, SQLException {
         Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+        //jdbc:sqlserver://localhost:1433;DatabaseName=你要连接的数据库名，这里我的时web_test
         this.connection = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;DatabaseName=web_test", name, password);
     }
 

@@ -15,6 +15,7 @@ import java.sql.SQLException;
 @WebServlet("/LoginServlet")
 public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        //固定操作，设置字符格式
         request.setCharacterEncoding("utf-8");
         response.setCharacterEncoding("utf-8");
         response.setHeader("content-type", "text/html;charset=utf-8");
@@ -46,6 +47,7 @@ public class LoginServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        //固定操作，不论method是post还是get，都能互相调用
         doPost(request, response);
     }
 }
