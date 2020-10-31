@@ -1,8 +1,19 @@
 # JavaWeb_Login_QiuQian
+
+## 环境
+
 - SQL Server数据库连接
 - HTML, Java, Servlet, SQL Server, Tomcat
+- JDK14, Tomcat9.0.37
 
 ## Database
+
+数据库中包含以下数据：
+
+| useername | password |
+| --------- | -------- |
+| admin     | admin    |
+| qiuqian   | qiuqian  |
 
 - 在构造方法中完成SQL数据库连接
 - testConnection();//连接测试
