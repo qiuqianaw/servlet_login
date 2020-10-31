@@ -22,7 +22,7 @@
 | ALL  | ![all](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031213110056.png) |
 | ---- | :----------------------------------------------------------: |
 | web  | ![web](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031213451683.png) |
-| Java | ![java](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031215121470.png) |
+| Java | ![java](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031222806819.png) |
 | API  | ![api](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031215153953.png) |
 
 
@@ -44,15 +44,15 @@ username为PRIMARY KEY
 
 Login
 
-![image-20201031215405723](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031215405723.png)
+![image-20201031222530129](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031222530129.png)
 
 登陆成功
 
-![image-20201031215446017](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031215446017.png)
+![image-20201031222551877](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031222551877.png)
 
 登录失败
 
-![image-20201031215513532](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031215513532.png)
+![image-20201031222601064](https://picbedd.oss-cn-beijing.aliyuncs.com/image-20201031222601064.png)
 
 ## :earth_asia:使用许可
 
