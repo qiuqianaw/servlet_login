@@ -4,6 +4,8 @@
 
 :smile:  *未更新完成*，未打包，仅上传源码
 
+[完成过程](https://github.com/NeusoftWADA/JavaWeb_Login_QiuQian/blob/main/%E5%AE%8C%E6%88%90%E8%BF%87%E7%A8%8B.md)已更新
+
 ## :new_moon_with_face:项目需求
 
 - [x] 数据库
