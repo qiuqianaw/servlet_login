@@ -24,17 +24,23 @@
         button {
             margin: 2rem 0 0;
         }
+        form {
+            margin-top: 15%;
+            margin-left: 30%;
+        }
         input {
-            margin: 2rem 0 0;
+            /* margin: 2rem 0 0; */
             border: none;
-            border-bottom: 1px solid;
             position: relative;
-            
+            border-bottom: 1px solid;
+            border-top:0px;
+            border-left:0px;
+            border-right:0px;
         }
-        .input::after {
-            content: "text";
-            position: absolute;
+        #pwd {
+            margin: 2rem 0 0;
         }
+
     </style>
 </head>
 <body>
@@ -42,8 +48,13 @@
     <div id="main">
         <div class="box">
             <form action="LoginServlet" method="post">
-                用户名:<input type="text" name="userName" id="input"><br>
-                密码:<input type="password" name="userPwd"><br>
+                <div id="username">
+                    用户名:<br><input type="text" name="userName" id="input"><br>
+                </div>
+                <div id="pwd">
+                    密码:<br><input type="password" name="userPwd"><br>
+                </div>
+                
                 <button type="submit">登录</button>
                 <!-- <input type="submit" value="登录"><input type="reset" value="重置"> -->
                 <span></span>
