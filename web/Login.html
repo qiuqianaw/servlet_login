@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <title>Login</title>
     <style type="text/css">
+        @import"https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.1/css/all.css";
         body {
-            background-image: url(img/bkg.jpg);
+            /* background-image: url(img/bkg.jpg); */
+            background-color: #34495e;
             background-repeat: no-repeat;
             background-attachment: fixed;
 	        background-size: cover;
         }
         .box{
+            background-color: #344983;
             position: absolute;
             top: 50%;
             left: 50%;
@@ -20,9 +23,17 @@
             backdrop-filter: blur(35px);
             border-radius: 50px;
             z-index: 1;
+            box-shadow: 15px 15px 10px rgba(33, 45, 58, 0.3);
         }
         button {
             margin: 2rem 0 0;
+            width: 200px;
+            height: 40px;
+            outline: none;
+            border: 1px solid #fff;
+            border-radius: 20px;
+            letter-spacing: 1px;
+            /* background: none; */
         }
         form {
             margin-top: 15%;
@@ -32,6 +43,8 @@
             /* margin: 2rem 0 0; */
             border: none;
             position: relative;
+            border: none;
+            background: none;
             border-bottom: 1px solid;
             border-top:0px;
             border-left:0px;
@@ -49,13 +62,17 @@
         <div class="box">
             <form action="LoginServlet" method="post">
                 <div id="username">
-                    用户名:<br><input type="text" name="userName" id="input"><br>
+                    用户名:<br>
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="userName" placeholder="username"><br>
                 </div>
                 <div id="pwd">
-                    密码:<br><input type="password" name="userPwd"><br>
+                    密码:<br>
+                    <i class="fas fa-key"></i>
+                    <input type="password" name="userPwd" placeholder="password"><br>
                 </div>
                 
-                <button type="submit">登录</button>
+                <button type="submit">Sign in</button>
                 <!-- <input type="submit" value="登录"><input type="reset" value="重置"> -->
                 <span></span>
             </form>
