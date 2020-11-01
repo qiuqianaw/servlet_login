@@ -3,12 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
+    <style type="text/css">
+        body {
+            background-image: url(img/bkg.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+	        background-size: cover;
+        }
+        .box{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 500px;
+            height: 300px;
+            backdrop-filter: blur(35px);
+            border-radius: 50px;
+            z-index: 1;
+        }
+        button {
+            margin: 2rem 0 0;
+        }
+        input {
+            margin: 2rem 0 0;
+            border: none;
+            border-bottom: 1px solid;
+            position: relative;
+            
+        }
+        .input::after {
+            content: "text";
+            position: absolute;
+        }
+    </style>
 </head>
 <body>
-    <form action="LoginServlet" method="post">
-        username:<input type="text" name="userName"><br>
-        password:<input type="password" name="userPwd"><br>
-        <input type="submit" value="登录"><input type="reset" value="重置">
-    </form>
+
+    <div id="main">
+        <div class="box">
+            <form action="LoginServlet" method="post">
+                用户名:<input type="text" name="userName" id="input"><br>
+                密码:<input type="password" name="userPwd"><br>
+                <button type="submit">登录</button>
+                <!-- <input type="submit" value="登录"><input type="reset" value="重置"> -->
+                <span></span>
+            </form>
+        </div>
+    </div>
+    
 </body>
 </html>
