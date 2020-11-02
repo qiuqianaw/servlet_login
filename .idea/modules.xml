@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/WEB_TEST.iml" filepath="$PROJECT_DIR$/WEB_TEST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web_Login.iml" filepath="$PROJECT_DIR$/Web_Login.iml" />
     </modules>
   </component>
 </project>

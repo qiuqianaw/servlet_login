@@ -12,7 +12,7 @@ public class Test {
         //测试是否连接成功
         database.testConnect();
         //从数据库取出数据测试
-        Userdata userdata1 = database.getUser("admin");
-        System.out.println(userdata1);
+//        Userdata userdata1 = database.getUser("admin");
+//        System.out.println(userdata1);
     }
 }
