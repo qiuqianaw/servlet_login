@@ -16,7 +16,7 @@
 
 ## :wrench:使用的环境/工具
 
-- JDK14, JRE10, Tomcat9.0.37
+- JDK8, JRE8, Tomcat9.0.37
 - HTML, Java, Servlet
 - SQL Server Management Studio, VS Code, IDEA
 
